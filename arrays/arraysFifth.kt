@@ -21,6 +21,4 @@ fun main(){
         }
         println(tmp.joinToString())
     }
-    print("Нажмите Enter для завершения")
-    readln()
 }

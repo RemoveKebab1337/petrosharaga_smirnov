@@ -20,7 +20,5 @@ fun main(){
 
     val result: String = ans.joinToString(separator="")
     println("Зашифорванное слово: $result")
-    println("Нажмите Enter, чтобы выйти")
-    readln()
 }
 

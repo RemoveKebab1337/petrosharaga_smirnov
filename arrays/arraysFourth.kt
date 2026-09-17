@@ -21,6 +21,5 @@ fun main(){
         }
     }
     ans.sort()
-    println("Повторяющися элементы: ${ans.joinToString()}\n\nНажмите Enter, чтобы выйти")
-    readln()
+    println("Повторяющися элементы: ${ans.joinToString()}")
 }

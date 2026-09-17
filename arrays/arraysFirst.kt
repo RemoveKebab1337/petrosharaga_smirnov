@@ -19,7 +19,6 @@ fun main(){
     }
 
     val ans = differentNumbers.size
-    println("В массиве использовано $ans различных чисел\n\nНажмите Enter для завершения")
-    readln()
+    println("В массиве использовано $ans различных чисел")
 }
 
