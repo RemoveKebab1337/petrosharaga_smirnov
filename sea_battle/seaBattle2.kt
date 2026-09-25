@@ -59,7 +59,6 @@ fun mergeFields(fields: Array<String>, indent: Int = 5): String {
     var size: Int = 0
     val debugMode = fields[0].split("\n")[3].contains("+---")
     val coef: Int = if (debugMode) 1 else 2
-    val coef2: Int = if(debugMode) 3 else 2
 
     for ( i in 0..fields.lastIndex) {
         val tmp: List<String> = fields[i].split("\n")
